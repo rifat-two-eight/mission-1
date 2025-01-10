@@ -41,7 +41,7 @@
   width: 400px;
 }
 .mini-text {
-  color: #0e0e0e;
+  color: #0e0e0e8c;
 }
 .btn-explore {
   background-color: #006a50;
@@ -63,11 +63,80 @@
 .card-style {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 12px;
 }
 .single-card {
   background-color: #f1f1f3;
-  border: 1px solid #0e0e0e;
+  border: 1px solid burlywood;
   border-radius: 7px;
   padding: 10px;
+}
+.vision-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.vision-1 {
+  background-color: #1761e23e;
+  padding: 18px;
+  border-radius: 7px;
+}
+.vision-2 {
+  padding: 18px;
+  border-radius: 7px;
+  background-color: #83e2173e;
+}
+.vision-3 {
+  padding: 18px;
+  border-radius: 7px;
+  background-color: #e232173e;
+}
+.btn-2 {
+  background-color: #5490f5;
+}
+.btn-3 {
+  background-color: #9d54f5;
+}
+.quote-part {
+  background-color: #f1f1f3;
+  border-radius: 7px;
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 18px;
+}
+.recent-news {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.jazera-img {
+  width: 350px;
+  height: 270px;
+  border-radius: 7px;
+}
+.jazera-part {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.jazera-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #f1f1f3;
+  padding: 20px;
+  border-radius: 7px;
+}
+.jazera-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #f1f1f3;
+  padding: 20px;
+  border-radius: 7px;
+}
+.h-sate {
+  margin-top: 0px;
 }
