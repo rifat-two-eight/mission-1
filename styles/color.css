@@ -174,3 +174,39 @@
   display: block;
   margin: 10px auto;
 }
+.letter-parent {
+  display: flex;
+  justify-content: center;
+}
+.btn-text {
+  border-radius: 0;
+  border-radius: 0 7px 7px 0;
+}
+.letter-text {
+  border: none;
+  padding: 15px 70px;
+  background-color: #dbe4c672;
+  border-radius: 7px 0 0 7px;
+}
+.news-div {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: #f1f1f3;
+  padding: 50px;
+  border-radius: 7px;
+}
+.text-2 {
+  text-align: center;
+}
+.footer-all {
+  margin: 0;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: rgba(246, 241, 221, 0.521);
+}
+.footer-hr {
+  width: 70%;
+  margin-bottom: 20px;
+  color: rgba(20, 20, 20, 0.292);
+}
