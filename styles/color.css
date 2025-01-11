@@ -104,8 +104,9 @@ body {
   border-radius: 7px;
   background-image: url("../assets/quote-bg.png");
   background-repeat: no-repeat;
-  background-position: top left;
-  padding: 18px;
+  padding: 20px;
+  background-position-x: 20px;
+  background-position-y: 12px;
 }
 .recent-news {
   margin-top: 60px;
@@ -171,6 +172,7 @@ body {
   padding: 20px 0;
   background-color: #ffffff;
   border: 1px solid;
+  border-radius: 7px;
 }
 .btn-donate {
   margin-top: 10px;
