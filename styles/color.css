@@ -217,3 +217,33 @@ body {
   margin-bottom: 20px;
   color: rgba(20, 20, 20, 0.292);
 }
+.hide {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .nav,
+  .banner-divide,
+  .card-style,
+  .jazera-part,
+  .jazera-1,
+  .jazera-2,
+  .donate {
+    flex-direction: column;
+  }
+  .jazera-2 {
+    flex-direction: column-reverse;
+  }
+  .hero-img {
+    width: 340px;
+  }
+  .full-body {
+    margin: 10px 20px;
+  }
+  .letter-text {
+    width: 100px;
+    padding: 10px 20px;
+  }
+  .btn-text {
+    padding: 10px 10px;
+  }
+}
