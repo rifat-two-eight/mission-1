@@ -234,7 +234,7 @@ body {
     flex-direction: column-reverse;
   }
   .hero-img {
-    width: 340px;
+    width: 100%;
   }
   .full-body {
     margin: 10px 20px;
@@ -245,5 +245,8 @@ body {
   }
   .btn-text {
     padding: 10px 10px;
+  }
+  .jazera-img {
+    width: 100%;
   }
 }
